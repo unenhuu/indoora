@@ -3,13 +3,33 @@
   flex-direction: column;
 }
 .col-1-items, .col-2-items{
+  color:white;
   display: flex;
   width: 100%;
-  justify-content: center;
-  align-items: center;
   margin: 1px;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
+  border-color: transparent;
   background-color: rgb(24, 24, 24);
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 12px;
+}
+
+.col-1-items{
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 12px;
+}
+
+.title{
+  color: white;
+  width: 100%;
+  background-color: rgb(24, 24, 24);
+  border-radius: 5px;
+  text-align: center;
+  margin: 1px;
 }
