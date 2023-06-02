@@ -21,6 +21,7 @@ export default function myTheme() {
   theme.axis.stroke = am4core.color("#c3c3c3");
   theme.axis.fill = am4core.color("#ffffff");
   theme.axis.grid.stroke = am4core.color("#c3c3c3");
+  // theme.axis.grid.stroke = am4core.color("#ffffff");
 
   // Customize the series appearance
   theme.seriesContainer.fill = am4core.color("#ffffff");
